@@ -1,5 +1,5 @@
 # Para saber en que lenguaje esta basado
-FROM python:3.9-alpine
+FROM python:3.7-alpine
 
 # Quien mantiene el proyecto (Opcional)
 LABEL Adrian Perez
