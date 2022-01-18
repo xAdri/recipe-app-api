@@ -29,3 +29,8 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=supersecretpassword
     container_name: recipe-postgres
+    volumes:
+      - 'pgdata:/var/lib/postgresql/data'
+  
+volumes:
+  pgdata: 
